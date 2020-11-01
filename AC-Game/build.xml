@@ -89,7 +89,7 @@
 	
     <target name="yguard" depends="jar">
         <taskdef name="yguard" classname="com.yworks.yguard.YGuardTask"
-                 classpath="..\AC-Tools\ant\bin\ant\lib\yguard.jar"/>
+                 classpath="..\AC-Tools\Ant\lib\yguard.jar"/>
         <yguard>
                         <inoutpair in="${build}/AC-Game_clean.jar" out="${build}/AC-Game.jar"/>
                         <externalclasses>
